@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+main {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.svg-cnt {
+    width: 65%;
+}
+#circle {
+    display: none;
+}
+.st0 {
+    fill: none;
+    stroke: #781214;
+    stroke-width: 0;
+    stroke-miterlimit: 10;
+}
+.st1 {
+    fill: none;
+    stroke: #FFFFFF;
+    stroke-width: 2;
+    stroke-miterlimit: 10;
+}
+.st2 {
+    fill: #ED1C24;
+}
+.st3 {
+    fill: none;
+    stroke: #FFFFFF;
+    stroke-width: 26;
+    stroke-miterlimit: 10;
+}
+.st4 {
+    fill: none;
+    stroke: #414042;
+    stroke-width: 12;
+    stroke-miterlimit: 10;
+}
+.st5 {
+    fill: none;
+    stroke: #414042;
+    stroke-width: 20;
+    stroke-miterlimit: 10;
+}
