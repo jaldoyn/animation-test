@@ -16,32 +16,26 @@ main {
 }
 .st0 {
     fill: none;
-    stroke: #781214;
-    stroke-width: 0;
-    stroke-miterlimit: 10;
-}
-.st1 {
-    fill: none;
     stroke: #FFFFFF;
     stroke-width: 2;
     stroke-miterlimit: 10;
 }
-.st2 {
+.st1 {
     fill: #ED1C24;
 }
-.st3 {
+.st2 {
     fill: none;
     stroke: #FFFFFF;
     stroke-width: 26;
     stroke-miterlimit: 10;
 }
-.st4 {
+.st3 {
     fill: none;
     stroke: #414042;
     stroke-width: 12;
     stroke-miterlimit: 10;
 }
-.st5 {
+.st4 {
     fill: none;
     stroke: #414042;
     stroke-width: 20;
