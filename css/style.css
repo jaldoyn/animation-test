@@ -120,3 +120,68 @@ main {
 }
 .fa-stack-2x {
 }
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (max-device-width: 599px) and (min-device-width: 320px) {
+    .svg-cnt {
+        width: 100%;
+        padding: 0 25px;
+    }
+    .signature {
+        display: none;
+        visibility: hidden;
+        float: none;
+        width: 50%;
+        margin: 0 auto;
+    }
+    .ico-cntr {
+        width: 100%;
+        float: none;
+    }
+    .ico-cntr a {
+        text-decoration: none;
+        margin: 0 .5em;
+    }
+}
+/**********
+iPad 3
+**********/
+@media only screen and (min-device-width : 100px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+    .svg-cnt {
+        width: 70%;
+        padding: 0 25px;
+    }
+}
+
+@media only screen and (min-device-width : 600px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+    .svg-cnt {
+        width: 80%;
+        padding: 0 25px;
+    }
+}
+
+/* iPhone 5 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+/* iPhone 6 ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+/* iPhone 6+ ----------- */
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
